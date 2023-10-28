@@ -67,5 +67,9 @@ To optimize the hyperparameters of the Random Forest algorithm, a grid search wa
 - min_samples_split
 - min_samples_leaf
 
-## Evaluate results
-During the analysis of different models it was used accuracy during cross validation and for validation it was used AUROC to measure the performance of the model.
+### Calculate predictions on test data
+During the analysis of different models it was used accuracy during cross validation and AUROC for validation and to measure the performance of the model.
+The data pipeline saves the trained model and uses it by default (instead of running training every time the pipeline is run). The model is saved in the `saved_models` folder.
+
+## How to run the code
+To run the pipeline simply run main.py
