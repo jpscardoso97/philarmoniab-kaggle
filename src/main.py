@@ -1,6 +1,5 @@
 import sys
 import pickle
-import os.path
 from os import path
 
 from data_processing.data_loader import DataLoader
